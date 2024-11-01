@@ -1,0 +1,1384 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooPay Inicis\n"
+"POT-Creation-Date: 2016-01-08 14:39+0900\n"
+"PO-Revision-Date: 2016-01-08 14:39+0900\n"
+"Last-Translator: \n"
+"Language-Team: Planet8 <thomas@planet8.co>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes\\updater\n"
+
+#: assets/templates/emails/plain/woopay-inicis-awaiting-payment.php:16
+msgid ""
+"Your order is waiting for payment. The order details are shown below for "
+"your reference:"
+msgstr ""
+
+#: assets/templates/emails/plain/woopay-inicis-awaiting-payment.php:22
+#, php-format
+msgid "Order number: %s"
+msgstr ""
+
+#: assets/templates/emails/plain/woopay-inicis-awaiting-payment.php:23
+msgid "jS F Y"
+msgstr ""
+
+#: assets/templates/emails/woopay-inicis-awaiting-payment.php:14
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: includes/abstracts/abstract-woopay-core.php:161
+msgid "Settings"
+msgstr "환경설정"
+
+#: includes/abstracts/abstract-woopay-core.php:197
+msgid "Would you like to continue deleting the log files?"
+msgstr "로그 파일의 삭제를 계속 하시겠습니까?"
+
+#: includes/abstracts/abstract-woopay-core.php:199
+msgid "There is no log file to view."
+msgstr "로그 파일이 없습니다."
+
+#: includes/abstracts/abstract-woopay-core.php:200
+msgid "There is no log file to delete."
+msgstr "삭제할 로그 파일이 없습니다."
+
+#: includes/abstracts/abstract-woopay-core.php:208
+msgid "View Log"
+msgstr "로그 보기"
+
+#: includes/abstracts/abstract-woopay-core.php:209
+msgid "Delete Log"
+msgstr "로그 삭제"
+
+#: includes/abstracts/abstract-woopay-core.php:293
+msgid "Preview"
+msgstr "미리보기"
+
+#: includes/abstracts/abstract-woopay-core.php:352
+#: includes/abstracts/abstract-woopay-core.php:366
+msgid "The keyfile you have uploaded is not correct."
+msgstr "업로드한 키파일이 올바르지 않습니다."
+
+#: includes/abstracts/abstract-woopay-core.php:370
+msgid "Keyfile upload success."
+msgstr "키파일 업로드 성공."
+
+#: includes/abstracts/abstract-woopay-core.php:521
+#: includes/abstracts/abstract-woopay-core.php:553
+msgid "On Delivery"
+msgstr "배송중"
+
+#: includes/abstracts/abstract-woopay-core.php:526
+#, php-format
+msgid "On delivery <span class=\"count\">(%s)</span>"
+msgstr "배송중 <span class=\"count\">(%s)</span>"
+
+#: includes/abstracts/abstract-woopay-core.php:529
+#: includes/abstracts/abstract-woopay-core.php:554
+msgid "Decline Delivery"
+msgstr "구매취소"
+
+#: includes/abstracts/abstract-woopay-core.php:534
+#, php-format
+msgid "Decline delivery <span class=\"count\">(%s)</span>"
+msgstr "구매취소 <span class=\"count\">(%s)</span>"
+
+#: includes/abstracts/abstract-woopay-core.php:537
+#: includes/abstracts/abstract-woopay-core.php:555
+msgid "Awaiting Payment"
+msgstr "입금대기중"
+
+#: includes/abstracts/abstract-woopay-core.php:542
+#, php-format
+msgid "Awaiting payment <span class=\"count\">(%s)</span>"
+msgstr "입금대기중 <span class=\"count\">(%s)</span>"
+
+#: includes/abstracts/abstract-woopay-core.php:627
+#, php-format
+msgid "Starting payment process. Payment method: %s."
+msgstr "결제 프로세스를 시작합니다. 결제방법: %s."
+
+#: includes/abstracts/abstract-woopay-core.php:635
+#: includes/abstracts/abstract-woopay-core.php:723
+#: includes/abstracts/abstract-woopay-core.php:725
+#: includes/abstracts/abstract-woopay-core.php:737
+#: includes/abstracts/abstract-woopay-core.php:745
+#: includes/abstracts/abstract-woopay-core.php:752
+#: includes/class-woopay-inicis-refund.php:160
+#, php-format
+msgid "%s Timestamp: %s."
+msgstr "%s 타임스탬프: %s."
+
+#: includes/abstracts/abstract-woopay-core.php:640
+msgid "Payment complete."
+msgstr "결제 완료."
+
+#: includes/abstracts/abstract-woopay-core.php:647
+#: includes/abstracts/abstract-woopay-core.php:661
+#: includes/abstracts/abstract-woopay-core.php:666
+#, php-format
+msgid "%s Payment method: %s. TID: %s. Timestamp: %s."
+msgstr "%s 결제방법: %s. TID: %s. 타임스탬프: %s."
+
+#: includes/abstracts/abstract-woopay-core.php:654
+msgid "CAS notification received. Payment complete."
+msgstr "CAS 통보 수신 완료. 결제가 완료 되었습니다."
+
+#: includes/abstracts/abstract-woopay-core.php:663
+msgid "CAS notification received, but payment cannot be completed."
+msgstr "CAS 통보 수신을 완료하였지만, 결제를 완료 할 수 없습니다."
+
+#: includes/abstracts/abstract-woopay-core.php:672
+msgid "Waiting for payment."
+msgstr "입금 대기중."
+
+#: includes/abstracts/abstract-woopay-core.php:689
+#, php-format
+msgid ""
+"%s Payment method: %s. Bank Name: %s. Bank Account: %s. Due Date: %s. TID: "
+"%s. Timestamp: %s."
+msgstr ""
+"%s 결제방법: %s. 은행이름: %s. 은행계좌: %s. 입금기한: %s. TID: %s. 타임스탬"
+"프: %s."
+
+#: includes/abstracts/abstract-woopay-core.php:696
+#, php-format
+msgid ""
+"CAS notification received, but failed to complete the payment. Code: %s. "
+"Message %s."
+msgstr ""
+"CAS 통보 수신을 완료하였지만, 결제를 완료할 수 없습니다. 코드: %s. 메세지: "
+"%s."
+
+#: includes/abstracts/abstract-woopay-core.php:699
+msgid "Payment request received but order is already completed."
+msgstr "결제 요청을 받았지만, 이 거래는 이미 완료되었습니다."
+
+#: includes/abstracts/abstract-woopay-core.php:703
+msgid "Payment request received but order is in processing."
+msgstr "결제 요청을 받았지만, 이 거래는 현재 처리중 입니다."
+
+#: includes/abstracts/abstract-woopay-core.php:707
+msgid "Payment failed."
+msgstr "결제 실패."
+
+#: includes/abstracts/abstract-woopay-core.php:715
+#: includes/class-woopay-inicis-actions.php:145
+#: includes/class-woopay-inicis-actions.php:206
+#: includes/class-woopay-inicis-actions.php:225
+#: includes/class-woopay-inicis-actions.php:238
+#: includes/class-woopay-inicis-actions.php:443
+#: includes/class-woopay-inicis-actions.php:610
+#: includes/class-woopay-inicis-refund.php:172
+msgid "Result Code: "
+msgstr "코드: "
+
+#: includes/abstracts/abstract-woopay-core.php:719
+#: includes/class-woopay-inicis-actions.php:146
+#: includes/class-woopay-inicis-actions.php:207
+#: includes/class-woopay-inicis-actions.php:226
+#: includes/class-woopay-inicis-actions.php:239
+#: includes/class-woopay-inicis-actions.php:444
+#: includes/class-woopay-inicis-actions.php:611
+#: includes/class-woopay-inicis-refund.php:173
+msgid "Result Message: "
+msgstr "메세지: "
+
+#: includes/abstracts/abstract-woopay-core.php:731
+msgid "Failed to verify integrity of payment."
+msgstr "거래금액 검증 실패."
+
+#: includes/abstracts/abstract-woopay-core.php:742
+msgid "User cancelled."
+msgstr "사용자 취소."
+
+#: includes/abstracts/abstract-woopay-core.php:771
+#: includes/abstracts/abstract-woopay-core.php:788
+#: includes/abstracts/abstract-woopay-core.php:823
+#: includes/abstracts/abstract-woopay-core.php:828
+msgid "Virtual Account Information"
+msgstr "가상계좌 정보"
+
+#: includes/abstracts/abstract-woopay-core.php:774
+#: includes/abstracts/abstract-woopay-core.php:791
+#: includes/abstracts/abstract-woopay-core.php:824
+#: includes/abstracts/abstract-woopay-core.php:829
+msgid "Bank Name"
+msgstr "은행명"
+
+#: includes/abstracts/abstract-woopay-core.php:775
+#: includes/abstracts/abstract-woopay-core.php:792
+#: includes/abstracts/abstract-woopay-core.php:825
+#: includes/abstracts/abstract-woopay-core.php:830
+msgid "Account No"
+msgstr "계좌번호"
+
+#: includes/abstracts/abstract-woopay-core.php:776
+#: includes/abstracts/abstract-woopay-core.php:793
+#: includes/abstracts/abstract-woopay-core.php:826
+#: includes/abstracts/abstract-woopay-core.php:831
+msgid "Due Date"
+msgstr "입금 기한일"
+
+#: includes/abstracts/abstract-woopay-core.php:839
+msgid "Are you sure you want to continue the refund?"
+msgstr "이 주문에 대한 환불을 계속 하시겠습니까?"
+
+#: includes/abstracts/abstract-woopay-core.php:840
+msgid "Are you sure you want to decline the delivery?"
+msgstr "구매 취소를 계속 하시겠습니까?"
+
+#: includes/abstracts/abstract-woopay-core.php:841
+msgid "Enter your auth num."
+msgstr "주문 당시 입력하신 개인 식별번호를 입력해주세요 (휴대폰/사업자번호)"
+
+#: includes/abstracts/abstract-woopay-core.php:939
+#: includes/abstracts/abstract-woopay-core.php:940
+#: includes/abstracts/abstract-woopay-core.php:945
+#: includes/abstracts/abstract-woopay-core.php:946
+msgid " (Mobile)"
+msgstr " (모바일)"
+
+#: includes/abstracts/abstract-woopay-core.php:1059
+#: includes/methods/class-woopay-inicis-card.php:20
+msgid "Credit Card"
+msgstr "신용카드"
+
+#: includes/abstracts/abstract-woopay-core.php:1067
+#: includes/methods/class-woopay-inicis-transfer.php:20
+msgid "Account Transfer"
+msgstr "계좌이체"
+
+#: includes/abstracts/abstract-woopay-core.php:1076
+#: includes/methods/class-woopay-inicis-virtual.php:20
+msgid "Virtual Account"
+msgstr "가상계좌"
+
+#: includes/abstracts/abstract-woopay-core.php:1085
+#: includes/methods/class-woopay-inicis-mobile.php:20
+msgid "Mobile Payment"
+msgstr "휴대폰 소액결제"
+
+#: includes/abstracts/abstract-woopay-core.php:1088
+msgid "International Credit Card"
+msgstr "해외신용카드"
+
+#: includes/abstracts/abstract-woopay-core.php:1092
+msgid "Alipay"
+msgstr "알리페이"
+
+#: includes/abstracts/abstract-woopay-core.php:1095
+msgid "Tenpay"
+msgstr "텐페이"
+
+#: includes/abstracts/abstract-woopay-core.php:1098
+msgid "Inpay"
+msgstr "인페이"
+
+#: includes/abstracts/abstract-woopay-core.php:1101
+msgid "China Pay"
+msgstr "차이나페이"
+
+#: includes/abstracts/abstract-woopay-core.php:1104
+msgid "Open Pay"
+msgstr "오픈페이"
+
+#: includes/abstracts/abstract-woopay-core.php:1107
+msgid "Gift Card"
+msgstr "문화상품권"
+
+#: includes/abstracts/abstract-woopay-core.php:1110
+msgid "T-Money"
+msgstr "티머니"
+
+#: includes/abstracts/abstract-woopay-core.php:1113
+msgid "PayPal"
+msgstr "페이팔"
+
+#: includes/abstracts/abstract-woopay-core.php:1124
+msgid "KDB"
+msgstr "산업은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1125
+#: includes/abstracts/abstract-woopay-core.php:1126
+msgid "IBK"
+msgstr "기업은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1127
+#: includes/abstracts/abstract-woopay-core.php:1128
+msgid "Kookmin Bank"
+msgstr "국민은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1129
+msgid "KEB"
+msgstr "외환은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1130
+msgid "Suhyup"
+msgstr "수협중앙회"
+
+#: includes/abstracts/abstract-woopay-core.php:1131
+#: includes/abstracts/abstract-woopay-core.php:1132
+#: includes/abstracts/abstract-woopay-core.php:1133
+msgid "Nonghyup"
+msgstr "농협중앙회"
+
+#: includes/abstracts/abstract-woopay-core.php:1134
+msgid "Chukhyup"
+msgstr "축협중앙회"
+
+#: includes/abstracts/abstract-woopay-core.php:1135
+#: includes/abstracts/abstract-woopay-core.php:1136
+msgid "Woori Bank"
+msgstr "우리은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1137
+#: includes/abstracts/abstract-woopay-core.php:1140
+#: includes/abstracts/abstract-woopay-core.php:1141
+#: includes/abstracts/abstract-woopay-core.php:1159
+msgid "Shinhan Bank"
+msgstr "신한은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1138
+msgid "Standard Chartered"
+msgstr "SC제일은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1139
+#: includes/abstracts/abstract-woopay-core.php:1155
+#: includes/abstracts/abstract-woopay-core.php:1156
+msgid "Hana Bank"
+msgstr "하나은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1142
+#: includes/abstracts/abstract-woopay-core.php:1151
+msgid "Citi Bank"
+msgstr "시티은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1143
+msgid "Daegu Bank"
+msgstr "대구은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1144
+msgid "Busan Bank"
+msgstr "부산은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1145
+msgid "Kwangju Bank"
+msgstr "광주은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1146
+msgid "Jeju Bank"
+msgstr "제주은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1147
+msgid "JB Bank"
+msgstr "전북은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1148
+msgid "Kangwon Bank"
+msgstr "강원은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1149
+msgid "Kyongnam Bank"
+msgstr "경남은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1150
+msgid "BC Card"
+msgstr "비씨카드"
+
+#: includes/abstracts/abstract-woopay-core.php:1152
+msgid "HSBC"
+msgstr "HSBC"
+
+#: includes/abstracts/abstract-woopay-core.php:1153
+#: includes/abstracts/abstract-woopay-core.php:1154
+msgid "Korea Post"
+msgstr "우체국"
+
+#: includes/abstracts/abstract-woopay-core.php:1157
+msgid "Peace Bank"
+msgstr "평화은행"
+
+#: includes/abstracts/abstract-woopay-core.php:1158
+msgid "Shinsegae"
+msgstr "신세계"
+
+#: includes/abstracts/abstract-woopay-core.php:1160
+msgid "Yuanta Securities"
+msgstr "유안타증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1161
+msgid "Hyundai Securities"
+msgstr "현대증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1162
+msgid "Mirae Asset"
+msgstr "미래에셋증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1163
+msgid "Korea Investment"
+msgstr "한국투자증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1164
+msgid "NH Investment"
+msgstr "농협투자증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1165
+msgid "HI Investment"
+msgstr "하이투자증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1166
+msgid "HMC Investment"
+msgstr "HMC투자증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1167
+msgid "SK Securities"
+msgstr "SK증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1168
+msgid "Daishin Securities"
+msgstr "대신증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1169
+msgid "Hana Daetoo Securities"
+msgstr "하나대투증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1170
+msgid "Shinhan Investment"
+msgstr "굿모닝신한증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1171
+msgid "Dongbu Securities"
+msgstr "동부증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1172
+msgid "Eugene Investment"
+msgstr "유진투자증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1173
+msgid "Meritz Securities"
+msgstr "동부증권"
+
+#: includes/abstracts/abstract-woopay-core.php:1174
+msgid "Shinyoung Secruities"
+msgstr "신영증권"
+
+#: includes/class-woopay-inicis-actions.php:83
+msgid "Return received, but order does not exist."
+msgstr "리턴을 요청 받았지만, 주문이 존재하지 않습니다."
+
+#: includes/class-woopay-inicis-actions.php:93
+msgid "Starting return process."
+msgstr "리턴 프로세스 시작."
+
+#: includes/class-woopay-inicis-actions.php:137
+#: includes/class-woopay-inicis-actions.php:178
+#: includes/class-woopay-inicis-actions.php:214
+msgid "HTTP Connect Error. Message: "
+msgstr "HTTP 연결 오류 발생. 메세지: "
+
+#: includes/class-woopay-inicis-actions.php:144
+msgid "Received result string"
+msgstr "결과 문자열 수신 성공"
+
+#: includes/class-woopay-inicis-actions.php:185
+msgid "Received ACK result string"
+msgstr "ACK 문자열 수신 성공"
+
+#: includes/class-woopay-inicis-actions.php:205
+msgid "Exception occurred."
+msgstr "예외가 발생했습니다."
+
+#: includes/class-woopay-inicis-actions.php:222
+msgid "Net cancel success. Result: "
+msgstr "망 취소 성공. 결과: "
+
+#: includes/class-woopay-inicis-actions.php:277
+msgid "Response received, but order does not exist."
+msgstr "요청을 받았지만, 주문이 존재하지 않습니다."
+
+#: includes/class-woopay-inicis-actions.php:287
+msgid "Starting response process."
+msgstr "요청 프로세스 시작."
+
+#: includes/class-woopay-inicis-actions.php:489
+msgid "Mobile next received, but order does not exist."
+msgstr "모바일 넥스트 요청을 받았지만, 주문이 존재하지 않습니다."
+
+#: includes/class-woopay-inicis-actions.php:499
+msgid "Starting mobile next process."
+msgstr "모바일 넥스트 프로세스 시작."
+
+#: includes/class-woopay-inicis-actions.php:525
+#, php-format
+msgid "Error occurred. Message: %s."
+msgstr "오류가 발생했습니다. 메시지 : %s."
+
+#: includes/class-woopay-inicis-actions.php:581
+msgid "Mobile notification received, but order does not exist."
+msgstr "모바일 통지를 받았지만, 주문이 존재하지 않습니다."
+
+#: includes/class-woopay-inicis-actions.php:592
+msgid "Starting mobile notification process."
+msgstr "모바일 통지 프로세스 시작."
+
+#: includes/class-woopay-inicis-actions.php:663
+msgid "Mobile return received, but order does not exist."
+msgstr "모바일 리턴을 요청 받았지만, 주문이 존재하지 않습니다."
+
+#: includes/class-woopay-inicis-actions.php:674
+msgid "Starting mobile return process."
+msgstr "모바일 리턴 프로세스 시작."
+
+#: includes/class-woopay-inicis-actions.php:699
+msgid "CAS response received, but order does not exist."
+msgstr "CAS 통보를 받았지만, 주문이 존재하지 않습니다."
+
+#: includes/class-woopay-inicis-actions.php:710
+msgid "Starting CAS response process."
+msgstr "CAS 요청 프로세스 시작."
+
+#: includes/class-woopay-inicis-actions.php:729
+msgid "Refund request by customer"
+msgstr "고객에 의한 환불 요청"
+
+#: includes/class-woopay-inicis-actions.php:761
+msgid "Log file has been deleted."
+msgstr "로그 파일이 삭제 되었습니다."
+
+#: includes/class-woopay-inicis-base.php:91
+msgid ""
+"Unpaid order has been cancelled because the time limit has been reached."
+msgstr "입금 기한일이 경과하여 미지불 주문이 취소되었습니다."
+
+#: includes/class-woopay-inicis-base.php:105
+msgid "Korean Payment Gateway integrated with Inicis for WooCommerce."
+msgstr "우커머스에서 사용할 수 있는 Inicis용 결제 게이트웨이 입니다."
+
+#: includes/class-woopay-inicis-email.php:12
+msgid "Awaiting Payment (Inicis)"
+msgstr ""
+
+#: includes/class-woopay-inicis-email.php:13
+msgid ""
+"This is an order notification sent to customers containing their virtual "
+"bank information."
+msgstr ""
+"이것은 가상계좌 할당 후 고객에게 보내지는 주문 상세 및 가상계좌 정보가 포함"
+"된 주문 알림입니다."
+
+#: includes/class-woopay-inicis-email.php:15
+msgid "Thank you for your order"
+msgstr "고객님의 주문에 감사드립니다"
+
+#: includes/class-woopay-inicis-email.php:16
+msgid "Your {site_title} virtual bank information from {order_date}"
+msgstr "고객님의 {order_date} {site_title} 가상계좌 정보"
+
+#: includes/class-woopay-inicis-payment.php:53
+#: includes/class-woopay-inicis-payment.php:54
+msgid "[Test Mode]"
+msgstr "[테스트 모드]"
+
+#: includes/class-woopay-inicis-payment.php:66
+#: includes/class-woopay-inicis-payment.php:85
+msgid "Please upload your keyfile first"
+msgstr "키파일을 먼저 업로드 해주세요"
+
+#: includes/class-woopay-inicis-payment.php:73
+msgid "Select your Merchant ID"
+msgstr "머천트 ID를 선택해주세요"
+
+#: includes/class-woopay-inicis-payment.php:134
+msgid ""
+"If you continue seeing the message to install the plugin, please enable "
+"NPAPI settings by following these steps:"
+msgstr ""
+"플러그인 설치 완료 후에도 설치 팝업이 반복해서 나온다면, 다음 단계를 수행하"
+"여 NPAPI를 활성화 해주세요:"
+
+#: includes/class-woopay-inicis-payment.php:136
+msgid "1. Enter <u>chrome://flags/#enable-npapi</u> on the address bar."
+msgstr "1. 주소창에 <u>chrome://flags/#enable-npapi</u> 를 입력해 주세요."
+
+#: includes/class-woopay-inicis-payment.php:138
+msgid "2. Enable NPAPI."
+msgstr "2. NPAPI를 활성화 해주세요."
+
+#: includes/class-woopay-inicis-payment.php:140
+msgid "3. Restart Chrome and refresh this page."
+msgstr "3. 크롬을 재시작 하시고 이 페이지를 새로고침 해주세요."
+
+#: includes/class-woopay-inicis-payment.php:152
+#: includes/class-woopay-inicis-payment.php:576
+#, php-format
+msgid ""
+"Your currency (%s) is not supported by this payment method. This payment "
+"method only supports: %s."
+msgstr ""
+"현재 사용하는 통화 (%s) 는 이 결제 방법에서 사용할 수 없습니다. 사용 가능한 "
+"통화는 다음과 같습니다: %s."
+
+#: includes/class-woopay-inicis-payment.php:450
+msgid "Test mode is enabled. Continue?"
+msgstr "테스트 모드가 활성화 되어있습니다. 계속 하시겠습니까?"
+
+#: includes/class-woopay-inicis-payment.php:451
+msgid "You have cancelled your transaction. Returning to cart."
+msgstr "결제를 취소 하셨습니다. 장바구니로 되돌아갑니다."
+
+#: includes/class-woopay-inicis-payment.php:452
+msgid "Plugin not installed. Press Ctrl+F5, or try refreshing this page!"
+msgstr ""
+"플러그인이 설치되지 않았습니다. Ctrl+F5 를 누르시거나, 페이지를 새로고침 해주"
+"세요."
+
+#: includes/class-woopay-inicis-payment.php:515
+msgid ""
+"<strong>Test mode is enabled!</strong> Please disable test mode if you "
+"aren't testing anything."
+msgstr ""
+"<strong>테스트 모드 활성화!</strong> 테스트 중이 아니시라면, 테스트 모드를 해"
+"제해 주세요."
+
+#: includes/class-woopay-inicis-payment.php:544
+#: includes/class-woopay-inicis-payment.php:551
+#: includes/class-woopay-inicis-payment.php:553
+#: includes/class-woopay-inicis-payment.php:555
+#: includes/class-woopay-inicis-payment.php:559
+#: includes/class-woopay-inicis-payment.php:561
+#: includes/class-woopay-inicis-payment.php:565
+#: includes/class-woopay-inicis-payment.php:567
+#: includes/class-woopay-inicis-payment.php:576
+msgid "Gateway Disabled"
+msgstr "게이트웨이 비활성화"
+
+#: includes/class-woopay-inicis-payment.php:544
+#, php-format
+msgid ""
+"Please check your permalink settings. You must use a permalink structure "
+"other than 'General'. Click <a href=\"%s\">here</a> to change your permalink "
+"settings."
+msgstr ""
+"고유주소 설정을 확인해 주세요. '일반'이 아닌 다른 설정값을 이용하셔야 합니"
+"다. <a href=\"%s\">여기</a>를 눌러 고유주소 설정을 변경해 주세요.."
+
+#: includes/class-woopay-inicis-payment.php:551
+#: includes/class-woopay-inicis-payment.php:559
+#: includes/class-woopay-inicis-payment.php:658
+msgid "Please select your Merchant ID."
+msgstr "머천트 ID (Merchant ID)를 선택해주세요."
+
+#: includes/class-woopay-inicis-payment.php:553
+#: includes/class-woopay-inicis-payment.php:561
+msgid "Please enter your Key Password."
+msgstr "키 패스워드를 입력해주세요."
+
+#: includes/class-woopay-inicis-payment.php:555
+msgid "Please enter your Sign Key."
+msgstr "웹결제 사인키를 입력해주세요."
+
+#: includes/class-woopay-inicis-payment.php:565
+#: includes/class-woopay-inicis-payment.php:664
+msgid "Please enter your Merchant ID."
+msgstr "머천트 ID (Merchant ID)를 입력해주세요."
+
+#: includes/class-woopay-inicis-payment.php:567
+msgid "Please enter your Symmetry Key."
+msgstr "상점 대칭키를 입력해주세요."
+
+#: includes/class-woopay-inicis-payment.php:571
+msgid "Test mode is enabled!"
+msgstr "테스트 모드 활성화!"
+
+#: includes/class-woopay-inicis-payment.php:571
+msgid "Please disable test mode if you aren't testing anything."
+msgstr "테스트 중이 아니시라면, 테스트 모드를 해제해 주세요."
+
+#: includes/class-woopay-inicis-payment.php:578
+msgid "Please Note"
+msgstr "참고 사항"
+
+#: includes/class-woopay-inicis-payment.php:578
+#, php-format
+msgid ""
+"Your currency (%s) is not recommended by this payment method. This payment "
+"method recommeds the following currency: %s."
+msgstr ""
+"현재 사용하는 통화 (%s) 는 이 결제 방법에서 권장하지 않습니다. 권장 통화는 다"
+"음과 같습니다: %s."
+
+#: includes/class-woopay-inicis-payment.php:594
+msgid "General Settings"
+msgstr "일반 설정"
+
+#: includes/class-woopay-inicis-payment.php:598
+#: includes/class-wooshipping.php:54
+msgid "Enable/Disable"
+msgstr "활성화/비활성화"
+
+#: includes/class-woopay-inicis-payment.php:600
+msgid "Enable this method."
+msgstr "결제수단 활성화"
+
+#: includes/class-woopay-inicis-payment.php:604
+#: includes/class-woopay-inicis-payment.php:863
+msgid "Enable/Disable Test Mode"
+msgstr "테스트 모드 활성화/비활성화"
+
+#: includes/class-woopay-inicis-payment.php:606
+msgid "Enable test mode."
+msgstr "테스트 모드가 활성화 됩니다."
+
+#: includes/class-woopay-inicis-payment.php:611
+msgid "Enable/Disable Logs"
+msgstr "로그 활성화/비활성화"
+
+#: includes/class-woopay-inicis-payment.php:613
+msgid "Enable logging."
+msgstr "로그를 활성화 합니다."
+
+#: includes/class-woopay-inicis-payment.php:614
+msgid "Logs will be automatically created when in test mode."
+msgstr "테스트 모드에서는 로그가 자동으로 생성 됩니다."
+
+#: includes/class-woopay-inicis-payment.php:618
+msgid "View/Delete Log"
+msgstr "로그 보기/삭제"
+
+#: includes/class-woopay-inicis-payment.php:625
+msgid "Title"
+msgstr "제목"
+
+#: includes/class-woopay-inicis-payment.php:627
+msgid "Title that users will see during checkout."
+msgstr "체크아웃시 사용자가 보게 될 제목입니다."
+
+#: includes/class-woopay-inicis-payment.php:631
+msgid "Description"
+msgstr "설명"
+
+#: includes/class-woopay-inicis-payment.php:633
+msgid "Description that users will see during checkout."
+msgstr "체크아웃시 사용자가 보게 될 설명입니다."
+
+#: includes/class-woopay-inicis-payment.php:637
+msgid "Communication Method"
+msgstr "통신 방식"
+
+#: includes/class-woopay-inicis-payment.php:640
+msgid "Select the communication method. Recommended method is 'Web Standard'."
+msgstr "통신 방식을 선택해 주세요. '웹 표준'이 권장사항 입니다."
+
+#: includes/class-woopay-inicis-payment.php:642
+msgid "Web Standard"
+msgstr "웹 표준"
+
+#: includes/class-woopay-inicis-payment.php:643
+msgid "TX Mode"
+msgstr "TX 방식"
+
+#: includes/class-woopay-inicis-payment.php:644
+msgid "INILite Method"
+msgstr "INILite 방식"
+
+#: includes/class-woopay-inicis-payment.php:649
+msgid "Upload Keyfile"
+msgstr "키파일 업로드"
+
+#: includes/class-woopay-inicis-payment.php:652
+#, php-format
+msgid ""
+"Please select your keyfile (as .ZIP file) and click 'Save Settings'. Your "
+"keyfile will be uploaded to: <code>%s</code>"
+msgstr ""
+"키파일 (.ZIP 파일 형태) 를 선택하신 뒤, '변경사항 저장' 버튼을 눌러주세요. 키"
+"파일은 다음 경로에 업로드 됩니다: <code>%s</code>"
+
+#: includes/class-woopay-inicis-payment.php:655
+#: includes/class-woopay-inicis-payment.php:662
+msgid "Merchant ID"
+msgstr "머천트 ID"
+
+#: includes/class-woopay-inicis-payment.php:667
+msgid "Sign Key"
+msgstr "웹결제 사인키"
+
+#: includes/class-woopay-inicis-payment.php:669
+msgid ""
+"Please enter your Sign Key. You can find your key at <a href=\\\"https://"
+"iniweb.inicis.com/\\\" target=\\\"_blank\\\">https://iniweb.inicis.com/</a>."
+msgstr ""
+"웹결제 사인키를 입력해 주세요. <a href=\\\"https://iniweb.inicis.com/\\\" "
+"target=\\\"_blank\\\">https://iniweb.inicis.com/</a>에서 찾으실 수 있습니다."
+
+#: includes/class-woopay-inicis-payment.php:672
+msgid "Key Password"
+msgstr "키 패스워드"
+
+#: includes/class-woopay-inicis-payment.php:674
+msgid "Please enter your Key Password. Default is: <code>1111</code>."
+msgstr "키 패스워드를 입력해주세요. 기본값: <code>1111</code>."
+
+#: includes/class-woopay-inicis-payment.php:678
+msgid "Symmetry Key"
+msgstr "상점 대칭키"
+
+#: includes/class-woopay-inicis-payment.php:680
+msgid ""
+"Please enter your Symmetry Key. You can find your key at <a href=\\\"https://"
+"iniweb.inicis.com/\\\" target=\\\"_blank\\\">https://iniweb.inicis.com/</a>."
+msgstr ""
+"상점 대칭키를 입력해 주세요. <a href=\\\"https://iniweb.inicis.com/\\\" "
+"target=\\\"_blank\\\">https://iniweb.inicis.com/</a>에서 찾으실 수 있습니다."
+
+#: includes/class-woopay-inicis-payment.php:684
+msgid "Expiry time in days"
+msgstr "입금 기한"
+
+#: includes/class-woopay-inicis-payment.php:686
+msgid "Select the virtual account transfer expiry time in days."
+msgstr "가상계좌 입금 기한을 선택해 주세요."
+
+#: includes/class-woopay-inicis-payment.php:688
+msgid "1 day"
+msgstr "1일"
+
+#: includes/class-woopay-inicis-payment.php:689
+msgid "2 days"
+msgstr "2일"
+
+#: includes/class-woopay-inicis-payment.php:690
+msgid "3 days"
+msgstr "3일"
+
+#: includes/class-woopay-inicis-payment.php:691
+msgid "4 days"
+msgstr "4일"
+
+#: includes/class-woopay-inicis-payment.php:692
+msgid "5 days"
+msgstr "5일"
+
+#: includes/class-woopay-inicis-payment.php:693
+msgid "6 days"
+msgstr "6일"
+
+#: includes/class-woopay-inicis-payment.php:694
+msgid "7 days"
+msgstr "7일"
+
+#: includes/class-woopay-inicis-payment.php:695
+msgid "8 days"
+msgstr "8일"
+
+#: includes/class-woopay-inicis-payment.php:696
+msgid "9 days"
+msgstr "9일"
+
+#: includes/class-woopay-inicis-payment.php:697
+msgid "10 days"
+msgstr "10일"
+
+#: includes/class-woopay-inicis-payment.php:702
+msgid "Escrow Settings"
+msgstr "에스크로 설정"
+
+#: includes/class-woopay-inicis-payment.php:704
+msgid "Force escrow settings."
+msgstr "거래를 에스크로로 진행합니다."
+
+#: includes/class-woopay-inicis-payment.php:712
+msgid "Refund Settings"
+msgstr "환불 설정"
+
+#: includes/class-woopay-inicis-payment.php:716
+msgid "Refund Button Text"
+msgstr "환불 버튼 텍스트"
+
+#: includes/class-woopay-inicis-payment.php:718
+msgid "Text for refund button that users will see."
+msgstr "환불 버튼에 들어갈 텍스트입니다."
+
+#: includes/class-woopay-inicis-payment.php:719
+msgid "Refund"
+msgstr "환불하기"
+
+#: includes/class-woopay-inicis-payment.php:722
+msgid "Refundable Satus for Customer"
+msgstr "고객 환불가능 상태"
+
+#: includes/class-woopay-inicis-payment.php:725
+msgid "Select the order status for allowing refund."
+msgstr "환불 가능한 주문 상태를 선택해주세요."
+
+#: includes/class-woopay-inicis-payment.php:733
+msgid "Design Settings"
+msgstr "디자인 설정"
+
+#: includes/class-woopay-inicis-payment.php:737
+msgid "Skin Type"
+msgstr "스킨 종류"
+
+#: includes/class-woopay-inicis-payment.php:739
+msgid "Select the skin type for your Inicis form."
+msgstr "이니시스 폼에 사용하실 스킨 색을 지정 하세요."
+
+#: includes/class-woopay-inicis-payment.php:748
+msgid "Skin Color"
+msgstr "스킨 색상"
+
+#: includes/class-woopay-inicis-payment.php:751
+msgid "Select the background color for your Inicis form."
+msgstr "이니시스 폼에 사용하실 배경 색상을 선택해 주세요."
+
+#: includes/class-woopay-inicis-payment.php:755
+msgid "Logo Image"
+msgstr "로고 이미지"
+
+#: includes/class-woopay-inicis-payment.php:757
+msgid ""
+"Please select or upload your logo. The size should be 95*35. You can use GIF/"
+"JPG/PNG."
+msgstr ""
+"로고를 선택하시거나 업로드해 주세요. 95*35 픽셀이 권장 사이즈 입니다. GIF/"
+"JPG/PNG 파일을 사용하실 수 있습니다."
+
+#: includes/class-woopay-inicis-payment.php:759
+msgid "Select/Upload Logo"
+msgstr "로고 선택/업로드"
+
+#: includes/class-woopay-inicis-payment.php:760
+msgid "Remove Logo"
+msgstr "로고 제거"
+
+#: includes/class-woopay-inicis-payment.php:764
+msgid "Payment Method Image"
+msgstr "결제 수단 이미지"
+
+#: includes/class-woopay-inicis-payment.php:766
+msgid ""
+"Please select or upload your image for the payment method. The size should "
+"be 128*100. You can use GIF/JPG/PNG, but the background cannot be "
+"transparent."
+msgstr ""
+"결제 수단 이미지를 선택하시거나 업로드해 주세요. 128*100 픽셀이 권장 사이즈 "
+"입니다. GIF/JPG/PNG 파일을 사용하실 수 있으며, 투명배경은 지원하지 않습니다."
+
+#: includes/class-woopay-inicis-payment.php:768
+#: includes/class-woopay-inicis-payment.php:777
+msgid "Select/Upload Image"
+msgstr "이미지 선택/업로드"
+
+#: includes/class-woopay-inicis-payment.php:769
+#: includes/class-woopay-inicis-payment.php:778
+msgid "Remove Image"
+msgstr "이미지 제거"
+
+#: includes/class-woopay-inicis-payment.php:773
+msgid "Checkout Processing Image"
+msgstr "결제 진행중 이미지"
+
+#: includes/class-woopay-inicis-payment.php:775
+msgid ""
+"Please select or upload your image for the checkout processing page. Leave "
+"blank to show no image."
+msgstr ""
+"결제 진행중 이미지를 선택하시거나 업로드해 주세요. 사용하지 않으시려면 빈 칸"
+"으로 두세요."
+
+#: includes/class-woopay-inicis-payment.php:779
+msgid "Use Default"
+msgstr "기본값 사용"
+
+#: includes/class-woopay-inicis-payment.php:783
+msgid "Checkout Processing Text"
+msgstr "결제 진행중 텍스트"
+
+#: includes/class-woopay-inicis-payment.php:785
+msgid ""
+"Text that users will see on the checkout processing page. You can use some "
+"HTML tags as well."
+msgstr ""
+"결제 진행시 사용자들이 볼 수 있는 텍스트 입니다. 간단한 HTML 태그를 사용하실 "
+"수 있습니다."
+
+#: includes/class-woopay-inicis-payment.php:786
+msgid ""
+"<strong>Please wait while your payment is being processed.</strong>\n"
+"If you see this page for a long time, please try to refresh the page."
+msgstr ""
+"<strong>결제가 진행중입니다. 잠시만 기다려 주세요.</strong>\n"
+"이 화면이 오랜 시간동안 유지된다면, 페이지를 새로고침 해주세요."
+
+#: includes/class-woopay-inicis-payment.php:789
+msgid "Chrome Message"
+msgstr "크롬 메시지"
+
+#: includes/class-woopay-inicis-payment.php:791
+msgid "Show steps to enable NPAPI for Chrome users using less than v45."
+msgstr "크롬 45버전 이하의 사용자들에게 NPAPI 활성화 방법을 표시합니다."
+
+#: includes/class-woopay-inicis-payment.php:801
+msgid "Installments Setting"
+msgstr "할부 설정"
+
+#: includes/class-woopay-inicis-payment.php:804
+msgid "Select installments."
+msgstr "할부개월을 선택해주세요."
+
+#: includes/class-woopay-inicis-payment.php:806
+msgid "2 Months"
+msgstr "2개월"
+
+#: includes/class-woopay-inicis-payment.php:807
+msgid "3 Months"
+msgstr "3개월"
+
+#: includes/class-woopay-inicis-payment.php:808
+msgid "4 Months"
+msgstr "4개월"
+
+#: includes/class-woopay-inicis-payment.php:809
+msgid "5 Months"
+msgstr "5개월"
+
+#: includes/class-woopay-inicis-payment.php:810
+msgid "6 Months"
+msgstr "6개월"
+
+#: includes/class-woopay-inicis-payment.php:811
+msgid "7 Months"
+msgstr "7개월"
+
+#: includes/class-woopay-inicis-payment.php:812
+msgid "8 Months"
+msgstr "8개월"
+
+#: includes/class-woopay-inicis-payment.php:813
+msgid "9 Months"
+msgstr "9개월"
+
+#: includes/class-woopay-inicis-payment.php:814
+msgid "10 Months"
+msgstr "10개월"
+
+#: includes/class-woopay-inicis-payment.php:815
+msgid "11 Months"
+msgstr "11개월"
+
+#: includes/class-woopay-inicis-payment.php:816
+msgid "12 Months"
+msgstr "12개월"
+
+#: includes/class-woopay-inicis-payment.php:820
+msgid "No Interest Setting"
+msgstr "무이자 할부 설정"
+
+#: includes/class-woopay-inicis-payment.php:822
+msgid "Allow no interest settings."
+msgstr "무이자 할부를 설정합니다."
+
+#: includes/class-woopay-inicis-payment.php:833
+#: includes/class-woopay-inicis-payment.php:846
+msgid "Allow Cash Receipt"
+msgstr "현금 영수증"
+
+#: includes/class-woopay-inicis-payment.php:835
+#: includes/class-woopay-inicis-payment.php:848
+msgid "Allow cash receipt for customers."
+msgstr "고객에게 현금 영수증 발행 여부를 표시합니다."
+
+#: includes/class-woopay-inicis-payment.php:852
+msgid "Callback URL"
+msgstr "콜백 URL"
+
+#: includes/class-woopay-inicis-payment.php:855
+msgid "Callback URL used for payment notice from Inicis."
+msgstr ""
+"이니시스 상점관리자의 '입금통보방식선택' -> '입금내역통보URL'에 입력하실 URL "
+"입니다."
+
+#: includes/class-woopay-inicis-payment.php:865
+msgid "You cannot test this payment method."
+msgstr "이 결제 방법은 테스트 하실 수 없습니다."
+
+#: includes/class-woopay-inicis-payment.php:882
+msgid ""
+"This payment method does not support refunds. You can refund each "
+"transaction using the merchant page."
+msgstr ""
+"이 결제 방법은 환불을 지원하지 않습니다. 상점 관리자 페이지에서만 환불이 가능"
+"합니다."
+
+#: includes/class-woopay-inicis-payment.php:890
+msgid ""
+"This Merchant ID is not from Planet8. Please visit the following page for "
+"more information: <a href=\"http://www.planet8.co/woopay-inicis-change-mid/"
+"\" target=\"_blank\">http://www.planet8.co/woopay-inicis-change-mid/</a>"
+msgstr ""
+"Planet8에서 발급한 머천트 아이디가 아니므로 일부 기능이 제한될 수 있습니다. "
+"자세한 정보를 원하시면 다음 페이지를 방문해 주세요: <a href=\"http://www."
+"planet8.co/woopay-inicis-change-mid/\" target=\"_blank\">http://www.planet8."
+"co/woopay-inicis-change-mid/</a>"
+
+#: includes/class-woopay-inicis-refund.php:24
+msgid "Refund request received, but order does not exist."
+msgstr "환불 요청을 받았지만, 주문이 존재하지 않습니다."
+
+#: includes/class-woopay-inicis-refund.php:38
+msgid "Starting refund process."
+msgstr "환불 프로세스 시작."
+
+#: includes/class-woopay-inicis-refund.php:47
+msgid "No TID found."
+msgstr "TID를 찾을 수 없습니다."
+
+#: includes/class-woopay-inicis-refund.php:111
+msgid "Please enter the account holder name. Refund failed."
+msgstr "환불 예금주명을 입력해 주세요. 환불에 실패했습니다."
+
+#: includes/class-woopay-inicis-refund.php:117
+msgid "Please select a bank. Refund failed."
+msgstr "환불 은행을 선택해 주세요. 환불에 실패했습니다."
+
+#: includes/class-woopay-inicis-refund.php:123
+msgid "Please enter the account number for refund. Refund failed."
+msgstr "환불 계좌번호를 입력해 주세요. 환불에 실패했습니다."
+
+#: includes/class-woopay-inicis-refund.php:145
+msgid "Customer"
+msgstr "고객"
+
+#: includes/class-woopay-inicis-refund.php:147
+msgid "Administrator"
+msgstr "관리자"
+
+#: includes/class-woopay-inicis-refund.php:156
+#, php-format
+msgid "Refund process complete. Refunded by %s. Reason: %s."
+msgstr "환불 처리 완료. %s에 의해 환불. 이유 : %s."
+
+#: includes/class-woopay-inicis-refund.php:166
+msgid "Your refund request has been processed."
+msgstr "환불 요청이 성공적으로 처리 되었습니다."
+
+#: includes/class-woopay-inicis-refund.php:169
+msgid "An error occurred while processing the refund."
+msgstr "환불을 처리하면서 오류가 발생 하였습니다."
+
+#: includes/class-woopay-inicis-refund.php:175
+#, php-format
+msgid "%s Code: %s. Message: %s. Timestamp: %s."
+msgstr "%s 코드: %s. 메세지: %s. 타임스탬프: %s."
+
+#: includes/class-wooshipping.php:13
+msgid "WooShipping"
+msgstr ""
+
+#: includes/class-wooshipping.php:15
+msgid "WooShipping lets you control various shipping fees."
+msgstr ""
+
+#: includes/class-wooshipping.php:56
+msgid "Enable this shipping method"
+msgstr ""
+
+#: includes/class-wooshipping.php:60
+msgid "Method Title"
+msgstr ""
+
+#: includes/class-wooshipping.php:62
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wooshipping.php:63
+msgid "Shipping Fee"
+msgstr ""
+
+#: includes/class-wooshipping.php:67
+msgid "Shipping Cost Type"
+msgstr ""
+
+#: includes/class-wooshipping.php:72 includes/class-wooshipping.php:298
+msgid "Fixed Rates"
+msgstr ""
+
+#: includes/class-wooshipping.php:73
+msgid "Free Shipping"
+msgstr ""
+
+#: includes/class-wooshipping.php:74
+msgid "Conditional Rates"
+msgstr ""
+
+#: includes/class-wooshipping.php:76
+msgid "You can select the type of shipping cost."
+msgstr ""
+
+#: includes/class-wooshipping.php:79
+msgid "Tax Status"
+msgstr ""
+
+#: includes/class-wooshipping.php:84
+msgid "Taxable"
+msgstr ""
+
+#: includes/class-wooshipping.php:85
+msgid "None"
+msgstr ""
+
+#: includes/class-wooshipping.php:299
+msgid ""
+"Fixed rates can be set below. You can declare fixed shipping costs per "
+"shipping class."
+msgstr ""
+
+#: includes/class-wooshipping.php:303 includes/class-wooshipping.php:417
+msgid "Costs"
+msgstr ""
+
+#: includes/class-wooshipping.php:309 includes/class-wooshipping.php:423
+msgid "Shipping Class"
+msgstr ""
+
+#: includes/class-wooshipping.php:310 includes/class-wooshipping.php:424
+msgid "Shipping Cost"
+msgstr ""
+
+#: includes/class-wooshipping.php:310 includes/class-wooshipping.php:424
+msgid "Shipping cost, excluding tax."
+msgstr ""
+
+#: includes/class-wooshipping.php:316 includes/class-wooshipping.php:431
+msgid "Any class"
+msgstr ""
+
+#: includes/class-wooshipping.php:317 includes/class-wooshipping.php:432
+#: includes/class-wooshipping.php:433
+msgid "N/A"
+msgstr ""
+
+#: includes/class-wooshipping.php:336 includes/class-wooshipping.php:371
+#: includes/class-wooshipping.php:452 includes/class-wooshipping.php:488
+msgid "Select a class&hellip;"
+msgstr ""
+
+#: includes/class-wooshipping.php:350 includes/class-wooshipping.php:467
+msgid "Add Cost"
+msgstr ""
+
+#: includes/class-wooshipping.php:350 includes/class-wooshipping.php:467
+msgid "Delete Selected Costs"
+msgstr ""
+
+#: includes/class-wooshipping.php:384 includes/class-wooshipping.php:502
+msgid "Delete the selected rates?"
+msgstr ""
+
+#: includes/class-wooshipping.php:412
+msgid "Conditional Free Shipping"
+msgstr ""
+
+#: includes/class-wooshipping.php:413
+msgid ""
+"Conditional free shipping can be set below. You can declare the minimum "
+"price for free shipping."
+msgstr ""
+
+#: includes/class-wooshipping.php:425
+msgid "Minimum Price"
+msgstr ""
+
+#: includes/class-wooshipping.php:425
+msgid "Minimum price for free shipping."
+msgstr ""
+
+#: includes/methods/class-woopay-inicis-card.php:19
+msgid "Inicis Credit Card"
+msgstr "이니시스 신용카드"
+
+#: includes/methods/class-woopay-inicis-card.php:21
+msgid "Payment via credit card."
+msgstr "신용카드로 결제를 진행합니다."
+
+#: includes/methods/class-woopay-inicis-mobile.php:19
+msgid "Inicis Mobile Payment"
+msgstr "이니시스 휴대폰 소액결제"
+
+#: includes/methods/class-woopay-inicis-mobile.php:21
+msgid "Payment via mobile payment."
+msgstr "휴대폰 소액결제로 결제를 진행합니다."
+
+#: includes/methods/class-woopay-inicis-transfer.php:19
+msgid "Inicis Account Transfer"
+msgstr "이니시스 계좌이체"
+
+#: includes/methods/class-woopay-inicis-transfer.php:21
+msgid "Payment via account transfer."
+msgstr "실시간 계좌이체로 결제를 진행합니다."
+
+#: includes/methods/class-woopay-inicis-virtual.php:19
+msgid "Inicis Virtual Account"
+msgstr "이니시스 가상계좌"
+
+#: includes/methods/class-woopay-inicis-virtual.php:21
+msgid "Payment via virtual account."
+msgstr "가상계좌로 결제를 진행합니다."
+
+#: woopay-inicis.php:106
+#, php-format
+msgid ""
+"<strong>%s</strong> has been disabled. This plugin can only be activated per "
+"site.<br/><br/><a href=\"javascript:history.go(-1);\">Go Back</a>"
+msgstr ""
+"<strong>%s</strong>은 비활성화 되었습니다. 이 플러그인은 개별 사이트에서만 활"
+"성화가 가능합니다.<br/><br/><a href=\"javascript:history.go(-1);\">뒤로가기</"
+"a>"
+
+#: woopay-inicis.php:114
+#, php-format
+msgid ""
+"<strong>%s</strong> has been disabled. Please check your permissions (at "
+"least 0755) and owner/group of your plugin folder:<br/><br/><code>%s</"
+"code><br/><br/>This plugin needs write permission to create files needed for "
+"payment. Try re-installing the plugin from the WordPress plugin screen "
+"directly.<br/><br/>For more information, please visit: <a href=\"http://www."
+"planet8.co/faq/\" target=\"_blank\">http://www.planet8.co/faq/</a><br/><br/"
+"><a href=\"javascript:history.go(-1);\">Go Back</a>"
+msgstr ""
+"<strong>%s</strong>은 비활성화 되었습니다. 플러그인 폴더의 권한 (최소 0755)"
+"과 소유자/그룹을 확인해 주세요:<br/><br/><code>%s</code><br/><br/>이 플러그인"
+"은 결제를 위한 몇가지 파일을 생성해야 합니다. WordPress 플러그인 화면에서 이 "
+"플러그인을 검색하여 재설치를 해보세요.<br/><br/>더 많은 정보를 원하시면 다음 "
+"링크를 눌러주세요: <a href=\"http://www.planet8.co/faq/\" target=\"_blank"
+"\">http://www.planet8.co/faq/</a><br/><br/><a href=\"javascript:history."
+"go(-1);\">뒤로가기</a>"
+
+#: woopay-inicis.php:119
+#, php-format
+msgid ""
+"<strong>%s</strong> has been disabled.<br/><br/>This plugin needs the <a "
+"href=\"http://php.net/manual/en/book.mcrypt.php\" target=\"_blank\">mcrypt</"
+"a> extension. Please check your PHP configuration.<br/><br/>For more "
+"information, please visit: <a href=\"http://www.planet8.co/faq/\" target="
+"\"_blank\">http://www.planet8.co/faq/</a><br/><br/><a href=\"javascript:"
+"history.go(-1);\">Go Back</a>"
+msgstr ""
+"<strong>%s</strong>은 비활성화 되었습니다.<br/><br/>이 플러그인은 <a href="
+"\"http://php.net/manual/kr/book.mcrypt.php\" target=\"_blank\">mcrypt</a> 익"
+"스텐션을 필요로 합니다. PHP 설정을 확인해 주세요.<br/><br/>더 많은 정보를 원"
+"하시면 다음 링크를 눌러주세요: <a href=\"http://www.planet8.co/faq/\" target="
+"\"_blank\">http://www.planet8.co/faq/</a><br/><br/><a href=\"javascript:"
+"history.go(-1);\">뒤로가기</a>"

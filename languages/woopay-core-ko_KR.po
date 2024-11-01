@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooPay Core\n"
+"POT-Creation-Date: 2016-01-07 13:34+0900\n"
+"PO-Revision-Date: 2016-01-07 13:36+0900\n"
+"Last-Translator: \n"
+"Language-Team: Planet8 <thomas@planet8.co>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/templates/emails/plain/woopay-inicis-awaiting-payment.php:16
+msgid ""
+"Your order is waiting for payment. The order details are shown below for "
+"your reference:"
+msgstr ""
+"고객님의 주문은 현재 입금 대기중 입니다. 참고를 위해 고객님의 주문 상세"
+"는 아래와 같습니다:"
+
+#: includes/class-woopay-inicis-email.php:12
+msgid "Awaiting Payment (Inicis)"
+msgstr "입금대기중 (이니시스)"
+
+#: includes/class-woopay-inicis-email.php:12
+msgid "Awaiting Payment (KCP)"
+msgstr "입금대기중 (KCP)"
+
+#: includes/class-woopay-inicis-email.php:12
+msgid "Awaiting Payment (NicePay)"
+msgstr "입금대기중 (나이스페이)"
+
+#: includes/class-woopay-inicis-email.php:12
+msgid "Awaiting Payment (PayGate)"
+msgstr "입금대기중 (페이게이트)"
+
+#: includes/class-woopay-inicis-email.php:13
+msgid ""
+"This is an order notification sent to customers containing their virtual "
+"bank information."
+msgstr ""
+"이것은 가상계좌 할당 후 고객에게 보내지는 주문 상세 및 가상계좌 정보가 포"
+"함된 주문 알림입니다."
+
+#: includes/class-woopay-inicis-email.php:15
+msgid "Thank you for your order"
+msgstr "고객님의 주문에 감사드립니다"
+
+#: includes/class-woopay-inicis-email.php:16
+msgid "Your {site_title} virtual bank information from {order_date}"
+msgstr "고객님의 {order_date} {site_title} 가상계좌 정보"
+
+#: includes/class-wooshipping.php:13
+msgid "WooShipping"
+msgstr "WooShipping"
+
+#: includes/class-wooshipping.php:15
+msgid "WooShipping lets you control various shipping fees."
+msgstr "WooShipping에서 다양한 배송비를 제어할 수 있습니다."
+
+#: includes/class-wooshipping.php:54
+msgid "Enable/Disable"
+msgstr "활성화/비활성화"
+
+#: includes/class-wooshipping.php:56
+msgid "Enable this shipping method"
+msgstr "이 배송 방법 활성화"
+
+#: includes/class-wooshipping.php:60
+msgid "Method Title"
+msgstr "방법 제목"
+
+#: includes/class-wooshipping.php:62
+msgid "This controls the title which the user sees during checkout."
+msgstr "이것은 사용자가 결제시 보는 제목을 제어합니다."
+
+#: includes/class-wooshipping.php:63
+msgid "Shipping Fee"
+msgstr "배송비"
+
+#: includes/class-wooshipping.php:67
+msgid "Shipping Cost Type"
+msgstr "배송비 유형"
+
+#: includes/class-wooshipping.php:72 includes/class-wooshipping.php:298
+msgid "Fixed Rates"
+msgstr "고정 요금"
+
+#: includes/class-wooshipping.php:73
+msgid "Free Shipping"
+msgstr "무료 배송"
+
+#: includes/class-wooshipping.php:74
+msgid "Conditional Rates"
+msgstr "조건부 요금"
+
+#: includes/class-wooshipping.php:76
+msgid "You can select the type of shipping cost."
+msgstr "배송비 유형을 선택할 수 있습니다."
+
+#: includes/class-wooshipping.php:79
+msgid "Tax Status"
+msgstr "세금 상태"
+
+#: includes/class-wooshipping.php:84
+msgid "Taxable"
+msgstr "과세 가능"
+
+#: includes/class-wooshipping.php:85
+msgid "None"
+msgstr "없음"
+
+#: includes/class-wooshipping.php:299
+msgid ""
+"Fixed rates can be set below. You can declare fixed shipping costs per "
+"shipping class."
+msgstr ""
+"고정 요금은 아래에서 지정할 수 있습니다. 각 배송 클래스마다 요금을 지정"
+"이 가능합니다."
+
+#: includes/class-wooshipping.php:303 includes/class-wooshipping.php:417
+msgid "Costs"
+msgstr "비용"
+
+#: includes/class-wooshipping.php:309 includes/class-wooshipping.php:423
+msgid "Shipping Class"
+msgstr "배송 클래스"
+
+#: includes/class-wooshipping.php:310 includes/class-wooshipping.php:424
+msgid "Shipping Cost"
+msgstr "배송비"
+
+#: includes/class-wooshipping.php:310 includes/class-wooshipping.php:424
+msgid "Shipping cost, excluding tax."
+msgstr "배송비, 세금 제외."
+
+#: includes/class-wooshipping.php:316 includes/class-wooshipping.php:431
+msgid "Any class"
+msgstr "모든 클래스"
+
+#: includes/class-wooshipping.php:317 includes/class-wooshipping.php:432
+#: includes/class-wooshipping.php:433
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/class-wooshipping.php:336 includes/class-wooshipping.php:371
+#: includes/class-wooshipping.php:452 includes/class-wooshipping.php:488
+msgid "Select a class&hellip;"
+msgstr "클래스를 선택해주세요&hellip;"
+
+#: includes/class-wooshipping.php:350 includes/class-wooshipping.php:467
+msgid "Add Cost"
+msgstr "비용 추가"
+
+#: includes/class-wooshipping.php:350 includes/class-wooshipping.php:467
+msgid "Delete Selected Costs"
+msgstr "선택된 비용 삭제하기"
+
+#: includes/class-wooshipping.php:384 includes/class-wooshipping.php:502
+msgid "Delete the selected rates?"
+msgstr "선택된 비용을 삭제할까요?"
+
+#: includes/class-wooshipping.php:412
+msgid "Conditional Free Shipping"
+msgstr "조건부 무료 배송"
+
+#: includes/class-wooshipping.php:413
+msgid ""
+"Conditional free shipping can be set below. You can declare the minimum "
+"price for free shipping."
+msgstr ""
+"조건부 무료 배송은 아래 테이블에서 설정할 수 있습니다. 배송 클래스별 최"
+"소 금액을 지정하여 무료 배송을 가능케 해줍니다."
+
+#: includes/class-wooshipping.php:425
+msgid "Minimum Price"
+msgstr "최소 금액"
+
+#: includes/class-wooshipping.php:425
+msgid "Minimum price for free shipping."
+msgstr "무료 배송을 위한 최소 금액."
